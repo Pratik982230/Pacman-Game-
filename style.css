@@ -1,0 +1,62 @@
+/* --- Font Loading Shim --- */
+#shim {
+	font-family: 'Permanent Marker', cursive;
+	position: absolute;
+	visibility: hidden
+}
+
+/* --- General Body and Layout --- */
+body {
+	background-color: black;
+	width: 342px; /* Specific width for the content area */
+	margin: 0px auto; /* Center the content area */
+	font-family: sans-serif; /* Default font */
+}
+
+/* --- Heading --- */
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	color: yellow;
+}
+
+/* --- Paragraphs --- */
+p {
+	text-decoration: none;
+	color: #0000FF; /* Blue color for paragraph text */
+}
+
+/* --- Specific Message Styling --- */
+.maintenance-message {
+	text-align: center; /* Center the maintenance message */
+}
+
+
+/* --- Pacman Game Container --- */
+#pacman {
+	height: 470px;
+	width: 382px; /* Adjust as needed based on game calculation */
+	border-radius: 5px;
+	margin: 20px auto; /* Center the game */
+	/* Note: Dimensions might be dynamically set or adjusted by JS */
+}
+
+/* Styles potentially added by JS (like scores, dialogs) */
+/* Keeping these selectors here for reference if needed */
+/* Example:
+.score-display {
+    fillStyle: #FFFFFF;
+    font: 12px BDCartoonShoutRegular;
+}
+.dialog-text {
+    fillStyle: #FFFF00;
+    font: 18px Calibri;
+}
+.footer-text {
+    fillStyle: #FFFF00;
+    font: 14px Calibri;
+}
+.sound-indicator {
+    font: bold 16px sans-serif;
+}
+*/
